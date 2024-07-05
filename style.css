@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #242424;
+}
+
+header {
+    background: #d89a1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: #242424 3px solid;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#logo {
+    padding: 2px;
+    display: flex;
+    font-family: "Margarine", sans-serif;;
+    align-items: center;
+}
+
+#logo p{
+    padding-left: 8px;
+}
+
+#logo img {
+    width: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo p {
+        display: none;
+    }
+
+    #logo img {
+        width: 45px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    #contato{
+        font-size: 8px;
+    }
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+nav a {
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: #ffffff;
+    transition: all 1s;
+    border-bottom: 2px solid #ffffff;
+}
+
+#contato{
+    background: #242424;
+    padding: 12px;
+    border-radius: 16px;
+}
+
+#contato a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contato a:hover{
+    color: #d89a1d;
+    transition: all 0.6s;
+}
+
+#Inicio{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 18px;
+    margin-top: 5px;
+    justify-content: center;
+    background-image: url(imagens/fundo\ 3.jpg);
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.card{
+    background: #24242492;
+    backdrop-filter: blur(5px);
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    max-width: 340px;
+}
+
+.card img{
+    max-width: 320px;
+    border-radius: 16px;
+}
+
+#carrossel{
+    margin: 5px 0px;
+}
+
+footer{
+    background: #242424;
+    height: 40px;
+}
