@@ -131,5 +131,36 @@ nav a:hover {
 
 footer{
     background: #242424;
-    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#by{
+    margin: 12px 0px;
+}
+
+#by a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#by h2{
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 24px;
+}
+
+#icons a{
+    width: 36px;
+    font-size: 36px;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#icons a:hover{
+    color: #d89a1d;
+    transition: all 0.6s ease;
 }
