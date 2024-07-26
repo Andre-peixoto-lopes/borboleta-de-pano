@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #242424;
+    background: #242424
 }
 
 header {
@@ -21,6 +21,7 @@ header {
 }
 
 #logo {
+    position: relative;
     padding: 2px;
     display: flex;
     font-family: "Margarine", sans-serif;;
@@ -59,8 +60,9 @@ ul {
 }
 
 nav{
-    margin-top: 15px;
-    margin-left: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav a {
@@ -94,39 +96,55 @@ nav a:hover {
     transition: all 0.6s;
 }
 
-#Inicio{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
-    gap: 18px;
-    margin-top: 5px;
-    justify-content: center;
-    background-image: url(imagens/fundo\ 3.jpg);
-    background-attachment: fixed;
-    z-index: 1;
+h1{
+    margin-top: 28px;
+    color: #ffffff34;
+    font-size: 72px;
 }
 
-.card{
-    background: #24242492;
-    backdrop-filter: blur(5px);
-    border: 2px solid black;
-    border-radius: 16px;
+.content img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        flex-direction: column;
+    }
+
+    .content img{
+        margin: auto;
+    }
+}
+
+#sobre{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto p{
     padding: 8px;
+}
+
+.texto{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+}
+
+.content{
+    width: 90%;
+    margin-bottom: 12px;
+    background-color: #ffffff0d;
+    border: #ffffff14 1px solid;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 18px;
+    display: flex;
     color: #ffffff;
-    max-width: 340px;
-}
-
-.card img{
-    max-width: 320px;
-    border-radius: 16px;
-}
-
-#carrossel{
-    margin: 5px 0px;
 }
 
 footer{

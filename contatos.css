@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #242424;
+    background: #242424
 }
 
 header {
@@ -21,6 +21,7 @@ header {
 }
 
 #logo {
+    position: relative;
     padding: 2px;
     display: flex;
     font-family: "Margarine", sans-serif;;
@@ -59,8 +60,9 @@ ul {
 }
 
 nav{
-    margin-top: 15px;
-    margin-left: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav a {
@@ -94,39 +96,38 @@ nav a:hover {
     transition: all 0.6s;
 }
 
-#Inicio{
+#main-c{
+    background: #3434341c;
     display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
-    gap: 18px;
-    margin-top: 5px;
-    justify-content: center;
-    background-image: url(imagens/fundo\ 3.jpg);
-    background-attachment: fixed;
-    z-index: 1;
-}
-
-.card{
-    background: #24242492;
-    backdrop-filter: blur(5px);
-    border: 2px solid black;
-    border-radius: 16px;
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px auto;
+    border: 1px solid #d89a1d41;
+    border-radius: 12px;
+    width: 355px;
+}
+
+#main-c img{
+    margin-bottom: 20px;
+}
+
+#main-c i{
+    display: flex;
+    margin: 8px;
+}
+
+#main-c a{
+    align-items: center;
+    margin: 12px;
+    font-size: 24px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    display: flex;
     color: #ffffff;
-    max-width: 340px;
-}
-
-.card img{
-    max-width: 320px;
-    border-radius: 16px;
-}
-
-#carrossel{
-    margin: 5px 0px;
+    padding: 8px 24px;
+    text-decoration: none;
 }
 
 footer{
