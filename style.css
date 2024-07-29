@@ -77,13 +77,10 @@ nav a:hover {
     border-bottom: 2px solid #ffffff;
 }
 
-#contato{
-    background: #242424;
-    padding: 12px;
-    border-radius: 16px;
-}
-
 #contato a{
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;

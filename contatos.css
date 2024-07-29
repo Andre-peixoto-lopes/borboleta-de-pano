@@ -79,13 +79,10 @@ nav a:hover {
     border-bottom: 2px solid #ffffff;
 }
 
-#contato{
-    background: #242424;
-    padding: 12px;
-    border-radius: 16px;
-}
-
 #contato a{
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -103,7 +100,7 @@ nav a:hover {
     justify-content: center;
     flex-direction: column;
     padding: 8px;
-    margin: 8px auto;
+    margin: 48px auto;
     border: 1px solid #d89a1d41;
     border-radius: 12px;
     width: 355px;
@@ -119,7 +116,10 @@ nav a:hover {
 }
 
 #main-c a{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
+    justify-content: center;
     margin: 12px;
     font-size: 24px;
     border: 1px solid #ffffff;
@@ -128,6 +128,55 @@ nav a:hover {
     color: #ffffff;
     padding: 8px 24px;
     text-decoration: none;
+}
+
+#linkedin a{
+    background: #0e76a8;
+}
+
+#linkedin a:hover{
+    background: #1d7299c6;
+    transition: all 0.3s;
+}
+
+#git a{
+    background: #c9510c;
+}
+
+#git a:hover{
+    background: #b0480bc6;
+    transition: all 0.3s;
+}
+
+#git i{
+    color: #000000;
+}
+
+#mail a{
+    background: #3a75fe;
+}
+
+#mail a:hover{
+    background: #3362d0c6;
+    transition: all 0.3s;
+}
+
+#whatsapp a{
+    background: #25D366;
+}
+
+#whatsapp a:hover{
+    background: #1fb255c6;
+    transition: all 0.3s;
+}
+
+#instagram a{
+    background: linear-gradient( to right, #833ab4,#fd1d1d,#fcb045);
+}
+
+#instagram a:hover{
+    background: linear-gradient( to left, #7536a0c6,#d61919c6,#a8752ec6);
+    transition: all 0.3s;
 }
 
 footer{
