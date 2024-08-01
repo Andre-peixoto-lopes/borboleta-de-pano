@@ -98,28 +98,40 @@ nav a:hover {
     gap: 18px;
     margin-top: 5px;
     justify-content: center;
-    background-image: url(imagens/fundo\ 3.jpg);
     background-attachment: fixed;
     z-index: 1;
 }
 
-.card{
-    background: #24242492;
-    backdrop-filter: blur(5px);
-    border: 2px solid black;
-    border-radius: 16px;
-    padding: 8px;
+#card{
+    background-color: #d89a1d9a;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    max-width: 340px;
+    border-radius: 12px;
+    width: 360px;
+    height: 540px;
 }
 
-.card img{
-    max-width: 320px;
-    border-radius: 16px;
+#ft-g{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+    height: 220px;
+}
+
+#fotos{
+    margin-top: 2px;
+    display: flex;
+}
+
+.ft-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
 }
 
 #carrossel{
